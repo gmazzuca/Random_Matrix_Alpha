@@ -1,4 +1,4 @@
-# Simulation of the mean density of states of the Gaussian Alpha ensemble, for a reference look at [1]
+# Simulation of the mean density of states of the Gaussian Alpha ensemble, for a general definition of this matrix ensemble look at [1]
 
 import numpy as np
 import matplotlib.pyplot as plt
