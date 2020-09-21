@@ -1,9 +1,8 @@
+# Simulation of the mean density of states of the Gaussian Alpha ensemble, for a reference look at [1]
+
 import numpy as np
 import matplotlib.pyplot as plt
 import numpy.linalg as LA
-import os
-from scipy.special import gamma, digamma
-# Simulation of the mean density of states of the Gaussian Alpha ensemble, for a reference look at [1]
 
 ##### MAIN ####
 
@@ -31,3 +30,6 @@ for a in a_values: #
     plt.xlim = (-bound,bound)
     plt.legend(loc = 'upper right')
     plt.show()
+
+    
+    #[1] G. Mazzuca: On the mean Density of States of some matrices related to the beta ensembles and an application to the Toda lattice. arXiv e-print 2008.04604 (2020).
