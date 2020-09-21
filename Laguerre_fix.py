@@ -1,10 +1,10 @@
+# Simulation of the mean density of states for the Laguerre alpha ensemble, 
+
 import numpy as np
 import matplotlib.pyplot as plt
 import numpy.linalg as LA
 import os
 ##### MAIN ####
-''' matrice fissa tipo Wishart-Laguerre ensemble '''
-
 
 n = 1000
 trials = 1000
