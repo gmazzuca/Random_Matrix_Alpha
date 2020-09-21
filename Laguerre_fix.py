@@ -25,3 +25,4 @@ for gamma in gamma_values: # Limite N/beta
         plt.title(r'$\alpha = %.0f, \, \gamma = %.3f$' %(alpha,gamma))
         plt.show()
         
+#[1] G. Mazzuca: On the mean Density of States of some matrices related to the beta ensembles and an application to the Toda lattice. arXiv e-print 2008.04604 (2020).
